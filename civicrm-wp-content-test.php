@@ -20,16 +20,17 @@ function civicrm_wp_content_test_basepage_handler($wp) {
 
   add_filter('the_content', 'civicrm_wp_content_test_basepage_render');
 
-  error_log(' TEST ');
+  // error_log(' TEST ');
   $excerpt = wp_trim_excerpt();
-  error_log(' XC '.substr($excerpt,0,15).' ');
+  // error_log(' XC '.substr($excerpt,0,15).' ');
 
 }
 
-function civicrm_wp_content_test_basepage_render($html) {
+/* function civicrm_wp_content_test_basepage_render($html) {
 
   error_log(' TEST_RENDER '.substr($html,0,15).' ');
 
   return $html;
 
 }
+*/
