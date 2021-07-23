@@ -5,7 +5,7 @@ Plugin Name: CiviCRM Content test
 Plugin URI: https://github.com/phdccltd/civicrm-wp-content-test
 GitHub Plugin URI: phdccltd/civicrm-wp-content-test
 Description: Test plugin to invoke the_content filter twice which can go wrong in CiviCRM 5.39+
-Author: PHDCC
+Author: Chris Cant, PHDCC
 Version: 1.0
 Author URI: https://www.phdcc.com/
 License: GPL2
